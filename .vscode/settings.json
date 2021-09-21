@@ -1,8 +1,10 @@
 {
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
     "source.organizeImports": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -10,6 +12,7 @@
     "razor": "html",
     "plaintext": "jade"
   },
+
   "javascript.validate.enable": false,
   "typescript.validate.enable": false
 }
