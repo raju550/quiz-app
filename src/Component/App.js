@@ -23,7 +23,11 @@ function App() {
                 component={SignUp}
               ></PublicRoute>
               <PublicRoute exact path="/login" component={Login}></PublicRoute>
-              <PrivateRoute exact path="/quiz" component={Quiz}></PrivateRoute>
+              <PrivateRoute
+                exact
+                path="/quiz/:id"
+                component={Quiz}
+              ></PrivateRoute>
               <PrivateRoute
                 exact
                 path="/result"
